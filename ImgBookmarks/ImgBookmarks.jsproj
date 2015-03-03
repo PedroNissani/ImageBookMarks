@@ -52,18 +52,19 @@
     <PackageCertificateKeyFile>ImgBookmarks_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="default.html" />
     <Content Include="images\Bookmark-icon.png" />
     <Content Include="js\ChromeBookMarkHandler.js" />
     <Content Include="js\Config.js" />
     <Content Include="js\ImageBookMarkBack.js" />
-    <Content Include="css\default.css" />
     <Content Include="js\ImageBookMarkContent.js" />
     <Content Include="js\libs\jquery-1.8.3.js" />
     <Content Include="manifest.json" />
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.2.0, Version=1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <!-- To modify your build process, add your task inside one of the targets below then uncomment
